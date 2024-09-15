@@ -1,0 +1,85 @@
+.item-con {
+  display: flex;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+.item-con-2 {
+    display: none;
+}
+.items {
+    display: flex;
+}
+.time {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.app-logo {
+  width: 25px;
+  height: 25px;
+  margin-left: 40px;
+  margin-top: 12px;
+}
+.title {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+.domain {
+    margin-left: 17px;
+    font-size: 17px;
+    font-family: "Roboto";
+    margin-top: 13px;
+    font-weight: 400;
+}
+.delete-icon {
+    width: 28px;
+    height: 28px;
+    border: 0px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: 3px;
+}
+@media screen and (max-width: 768px){
+    .item-con {
+        display: none;
+    }
+    .time-2{
+        margin-bottom: 0px;
+    }
+    .item-con-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .items-2 {
+        display: flex;
+        align-items: center;
+    }
+    .btn-text-con{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .app-logo-2{
+        width: 40px;
+        height: 40px;
+    }
+    .text-con{
+        margin-left: 20px;
+    }
+    .title-2{
+        margin-bottom: -10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .domain-2{
+        margin-top: 0px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+
+
